@@ -9,6 +9,9 @@ body{
     background: #0a0f0f;
     min-height: 200vh;
 }
+#evo{
+    color: #0a0f0f;
+}
 section{
     position: relative;
     width: 100%;
@@ -52,9 +55,24 @@ section img{
     color: aliceblue;
     font-size: 10em;
     z-index: 10;
+    margin-bottom: -50px;
 }
 #buildes,
 #water
 {
     z-index: 12;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #0a0f0f;
+}
+
+body::-webkit-scrollbar-thumb {
+    background:  linear-gradient(to top ,transparent , transparent, transparent, #47595980, transparent); ;
+    transform: translateY(-50%);
+    border-radius: 20px;
 }
